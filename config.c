@@ -4,16 +4,12 @@
 #include "util.h"
 
 Block blocks[] = {
-    {"sb-mail",    600,  1 },
-    {"sb-music",   0,    2 },
-    {"sb-disk",    1800, 3 },
-    {"sb-memory",  10,   4 },
-    {"sb-loadavg", 5,    5 },
-    {"sb-mic",     0,    6 },
-    {"sb-record",  0,    7 },
-    {"sb-volume",  0,    8 },
-    {"sb-battery", 5,    9 },
-    {"sb-date",    1,    10},
+	{"~/.scripts/dwm-internet",                                         10,             1},
+        {"~/.scripts/dwm-memory",                                           10,             2},
+        {"~/.scripts/dwm-redshift",                                         0,              3},
+        {"~/.scripts/dwm-volume",                                           0,              4},
+        {"~/.scripts/dwm-clock",                                            10,             5},
 };
+
 
 const unsigned short blockCount = LEN(blocks);
