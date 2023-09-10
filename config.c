@@ -8,6 +8,7 @@ Block blocks[] = {
         {"~/.scripts/dwm-memory",                                           10,             2},
         {"~/.scripts/dwm-redshift",                                         0,              3},
         {"~/.scripts/dwm-volume",                                           0,              4},
+        {"~/.scripts/dwm-battery",                                          10,             6},
         {"~/.scripts/dwm-clock",                                            10,             5},
 };
 
